@@ -1,0 +1,46 @@
+.navbar {
+  max-height: 8em;
+  padding: 0 6em 0 4em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--navbar-background);
+}
+
+.search-bar {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid green;
+  max-width: 850px;
+}
+
+input{
+  flex: 1;
+  padding: 1em;
+  height: 45px;
+  max-width: 150rem;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border: none;
+}
+
+.search-button {
+  height: 45px;
+  width: 45px;
+}
+
+.search-button img{
+  width: 30px;
+}
+
+.cart-section {
+  border: 2px solid blue;
+}
+
+.principal-logo {
+  width: 150px;
+}
